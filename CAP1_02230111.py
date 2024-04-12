@@ -9,8 +9,8 @@
 # http://link.to.an.article/video.com
 ################################
 # SOLUTION
-# Your Solution Score:
-# Put your number here
+# Your Solution Score:50055
+# Put your number here: 1
 ################################
 def read_input(file_path):
     with open(file_path, 'r') as file:
@@ -41,7 +41,7 @@ def calculate_score(rounds):
             total_score += 7  # Add 7 to the total score if shape is C and outcome is Z
     return total_score  # Return the total score
 
-file_path = "input_5_cap1.txt"  # Path to the input file
+file_path = "input_1_cap1.txt"  # Path to the input file
 
 # Read combinations from the file
  # Create a list of shape-outcome pairs
